@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ExampleRedfoxExtension.Messages.Requests
 {
-    class TimeRequest : IZoneRequestMessage
+    public class TimeRequest : IZoneRequestMessage
     {
         //Example message property
         [JsonProperty]

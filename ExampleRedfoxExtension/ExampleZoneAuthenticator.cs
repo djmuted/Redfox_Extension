@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ExampleRedfoxExtension
 {
-    class ExampleZoneAuthenticator : ZoneAuthenticator
+    public class ExampleZoneAuthenticator : ZoneAuthenticator
     {
         public override bool GuestLogin(User user)
         {
